@@ -70,8 +70,6 @@ function income()
     document.getElementById("weekly").innerHTML = "Your weekly income will be Kshs." + calculation(45, 7)*total+".";
 }
 };
-
-
     // let monthlyData = {
     //     january: 31,
     //     february: 29,

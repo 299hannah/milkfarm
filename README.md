@@ -11,7 +11,7 @@ You can install it with the following command in your terminal
 ### Setup
 To access this project on your local files, you can clone it using these steps
 Open your terminal
-Use this command to clone `$ git clone https://github.com/299hannah/My_favorite_band_project
+Use this command to clone `$ git clone https://github.com/299hannah/milkfarm
 This will clone the repositoty into your local folder
 
 ### Technologies Used
