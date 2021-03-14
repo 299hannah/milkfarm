@@ -20,6 +20,6 @@ This will clone the repositoty into your local folder
  Javascript
  Git()
 ### Live Site
-View [live](https://299hannah.github.io/My_favorite_band_project/)
+View [live](https://299hannah.github.io/milkfarm/)
 ### Licence
 This project is under the [MIT licence](licence)
