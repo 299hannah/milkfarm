@@ -5,7 +5,6 @@ function Production()
     var field3=document.getElementById("shed_C").value;
     var field4=document.getElementById("shed_D").value;           
     
-
     var shed1=document.getElementById("shed_a").value;
     var shed2=document.getElementById("shed_b").value;
     var shed3=document.getElementById("shed_c").value;
