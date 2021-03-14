@@ -18,7 +18,6 @@ function Production()
 
     var total=result1+result2+result3+result4;
     
-
     if(isNaN(result1) || isNaN(result2) || isNaN(result3) | isNaN(result4))
     { 
         alert("records not found");
@@ -45,7 +44,6 @@ function income()
     var field2=document.getElementById("shed_B").value;
     var field3=document.getElementById("shed_C").value;
     var field4=document.getElementById("shed_D").value;           
-    
 
     var shed1=document.getElementById("shed_a").value;
     var shed2=document.getElementById("shed_b").value;
