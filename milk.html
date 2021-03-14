@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Milk Produce | welcome</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="brand">
+                <h2>Milk Farm</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a link href="index.html">Home</a></li>
+                    <li class="current"><a link href="milk.html">Milk Produce</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="p">
+        <p> The milk produce gives us a report on how much milk is produced per shed and the total amount of milk produced by all sheds.</p>
+        <p>It also calculates the buying rate as one of its arguments, gives you a report on how much pay
+            you'll receive over time.For instance, it can give a report on how much you will earn on a weekly basis.
+        </p>
+    </div>
+    </div>
+    <div class="container">
+        <div id="section">
+            <table id="sheds">
+                <tr>
+                    <th>SHED No.</th>
+                    <td>SHED A.</td>
+                    <td>SHED B.</td>
+                    <td>SHED C.</td>
+                    <td>SHED D.</td>
+                </tr>
+                <tr>
+                    <th>No. of cows</th>
+                    <td><input type="number" id="shed_A" placeholder="34" /></td>
+                    <td><input type="number" id="shed_B" placeholder="11" /></td>
+                    <td><input type="number" id="shed_C" placeholder="21" /></td>
+                    <td><input type="number" id="shed_D" placeholder="52" /></td>
+
+                </tr>
+                <tr>
+                    <th>Avg production in liters</th>
+                    <td><input type="number" id="shed_a" placeholder="15" /></td>
+                    <td><input type="number" id="shed_b" placeholder="28" /></td>
+                    <td><input type="number" id="shed_c" placeholder="18" /></td>
+                    <td><input type="number" id="shed_d" placeholder="11" /></td>
+                </tr>
+                <tr>
+                </tr>
+            </table>
+        </div>
+
+        <div id="buttons">
+            <div class="dairy">
+            <button onclick="Production()">dairy Production per shed</button>
+            </div>
+            <div class="income">
+            <button onclick="income()">income</button>
+            </div>
+            <div class="month">
+            <button onclick="MonthlyIncome()">monthly income</button>
+            </div>
+            <div class="refresh">
+            <button onclick="reset()">reset</button>
+            </div>
+        </div>
+        <div class="records">
+            <div id="shed">
+                
+                <h2 id="shedsProduction"></h2>
+                <p id="shed_Aa"></p>
+                <p id="shed_Bb"></p>
+                <p id="shed_Cc"></p>
+                <p id="shed_Dd"></p>
+                <p id="total"></p>
+            </div>
+
+            <div id="week">
+                <h2 id="income"></h2>
+                <p id="weekly"></p>
+                <p id="yearly"></p>
+            </div>
+
+            <div id="Income">
+                <h2 id="Monthlyincome"></h2>
+                <p id="jan"></p>
+                <p id="feb"></p>
+                <p id="mar"></p>
+                <p id="apr"></p>
+                <p id="may"></p>
+                <p id="june"></p>
+                <p id="july"></p>
+                <p id="aug"></p>
+                <p id="sep"></p>
+                <p id="oct"></p>
+                <p id="nov"></p>
+                <p id="dec"></p>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+<div class="container">
+    <footer>
+        <p>Feel free to contact us if need arises.</p>
+        <p>copyright &#169; 2021<p>
+    </footer>
+</div>
+
+
+</html>
