@@ -65,8 +65,7 @@ function income()
         alert("records not found");
 }
        else{
-    
-    
+           
     document.getElementById("weekly").innerHTML = "Your weekly income will be Kshs." + calculation(45, 7)*total+".";
 }
 };
