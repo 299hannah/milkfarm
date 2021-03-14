@@ -10,7 +10,7 @@ You can install it with the following command in your terminal
 
 ### Setup
 To access this project on your local files, you can clone it using these steps
-Open your terminal
+Open your terminal.
 Use this command to clone `$ git clone https://github.com/299hannah/milkfarm
 This will clone the repositoty into your local folder
 
