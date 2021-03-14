@@ -10,7 +10,6 @@
      background: url("images/cow2.jpg") no-repeat 0px -1000px;
      
  }
-
  .container {
      width: 80%;
      margin: auto;
@@ -83,7 +82,7 @@
  header h2{
      font-family: 'papyrus';
  }
- 
+
 table{
     
     width: 100%;
